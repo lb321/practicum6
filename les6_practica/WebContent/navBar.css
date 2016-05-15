@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;    
+}
+
+li{
+	display:inline-block;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+li a.active {
+    background-color: #000000;
+    color: white;
+}
+
+#form{
+	display:inline-block;
+}
+
+#navBar{
+	margin-right:10px;
+	width:auto;
+	display:inline-block;
+}
